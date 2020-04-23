@@ -1,0 +1,44 @@
+.barra {
+    background-color: black;
+    color: white;
+    padding: 0.68em;
+    font-size: 16px;
+    
+}
+.col-12 {
+    background-color:#dbdbdb;
+    padding: 2em;
+    font-size: 16px;
+    margin-bottom: 6.25em;
+}
+.blanco {
+   background-color: white;
+   border: black solid 1px;
+
+}
+
+.textoFooter {
+    padding: 3em;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media screen and(max-width:600px) {
+    .col-12 {
+        font-size: 14px;
+        text-align: justify;
+        
+    }
+    .col-12 h2 {
+        text-align: center;
+    }
+    .col-12{
+        background-color: white;
+    }
+    
+    
+}
+
+
